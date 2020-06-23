@@ -9,4 +9,4 @@
 
         <link href="{{asset('public/assets/css/lib/helper.css')}}" rel="stylesheet">
         <link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
-        <link href="{{asset('public/assets/css/custom.css')}}" rel="stylesheet">
+        <link href="{{asset('public/assets/css/lib/custom.css')}}" rel="stylesheet">

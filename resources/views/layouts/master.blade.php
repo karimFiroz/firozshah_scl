@@ -16,7 +16,7 @@
 
     <body>
     @include('school.partials.nav')
-       @include('school.partials.sidebar')
+       
         <!-- /# sidebar -->
       @include('school.partials.header')
       

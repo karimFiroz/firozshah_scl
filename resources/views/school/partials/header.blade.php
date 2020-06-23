@@ -1,5 +1,7 @@
 <div class="header">
+
             <div class="container-fluid">
+            <h1>Firozshah City Corporation Girls' High School</h1>
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="float-left">
@@ -23,6 +25,7 @@
                                                     <a href="#">
                                                 <img class="pull-left m-r-10 avatar-img" src="public/assets/images/avatar/3.jpg" alt="" />
                                                 <div class="notification-content">
+                                                
                                                     <small class="notification-timestamp pull-right">02:34 PM</small>
                                                     <div class="notification-heading">Mr. John</div>
                                                     <div class="notification-text">5 members joined today </div>

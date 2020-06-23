@@ -61,4 +61,4 @@
         <script src="{{asset('public/assets/js/lib/owl-carousel/owl.carousel.min.js')}}"></script>
         <script src="{{asset('public/assets/js/lib/owl-carousel/owl.carousel-init.js')}}"></script>
         <script src="{{asset('public/assets/js/scripts.js')}}"></script>
-        <script src="{{asset('public/assets/js/custom.js')}}"></script>
+        <script src="{{asset('public/assets/js/lib/custom.js')}}"></script>

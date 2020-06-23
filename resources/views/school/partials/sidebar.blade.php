@@ -3,7 +3,7 @@
                 <div class="nano-content">
                 <div class="logo"><a href="{{route('index')}}"><!-- <img src="public/assets/images/logo.png" alt="" /> --><span>Firozshah School</span></a></div>
                     <ul>
-                        <li><a href="{{route('content')}}">HOME</a></li>
+                        <li><a href="{{route('index')}}">HOME</a></li>
                         <li class="active"><a class="sidebar-sub-toggle"href="{{route('index')}}"><i class="ti-home"></i>MENU<span class="badge badge-primary"></span> <span class="sidebar-collapse-icon ti-angle-down"></span></a>
                             <ul>
                                 <li><a href="{{route('xyz')}}">Dashboard </a></li>

@@ -9,6 +9,19 @@ use Illuminate\Support\Facades\Route;
 |Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+Route::get('/login','AuthController@showLoginForm')->name('login');
+Route::post('/login','AuthController@processLogin');
+
+
+Route::get('/register','AuthController@showRegisterForm')->name('register');
+Route::post('/register','AuthController@processRegister');
+
+
+Route::get('/profile','AuthController@showProfile')->name('profile');
+Route::get('/logout','AuthController@logout')->name('logout');
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
@@ -37,5 +50,15 @@ Route::get('/contact', 'PagesController@contact')->name('contact');
 
 //admin section
 Route::get('/xyz','AdminController@index')->name('xyz');
-Route::get('/login','AdminController@login')->name('login');
-Route::get('/register','AdminController@register')->name('register');
+
+
+
+Route::get('/login','AdminController@showLoginForm')->name('login');
+Route::post('/login','AdminController@processLogin');
+
+
+Route::get('/register','AdminController@showRegisterForm')->name('register');
+Route::post('/register','AdminController@processRegister');
+
+
+
