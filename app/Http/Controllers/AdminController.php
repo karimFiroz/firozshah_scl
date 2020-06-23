@@ -7,16 +7,29 @@ use Illuminate\Http\Request;
 use DB;
 class AdminController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+   
+   
     public function index()
     {
  
         return view('admin.login');
     }
+   
+   
+   
+    public function register(){
+       return view('admin.register');
+   }
+   
+   
+   
+   
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+  
     /**
      * Show the form for creating a new resource.
      *

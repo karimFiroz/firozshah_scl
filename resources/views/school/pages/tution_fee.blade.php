@@ -5,6 +5,7 @@
 <div align="center"><a class="btn btn-info" href="{{ route('create') }}" align="center">Create new Products</a></div>
 <table border="0"class="table table-responsive table-hover">
 		<tr>
+		<th>ID</th>
 			<th>SL</th>
 			<th>Date</th>
 			<th>stdName</th>

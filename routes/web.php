@@ -38,3 +38,4 @@ Route::get('/contact', 'PagesController@contact')->name('contact');
 //admin section
 Route::get('/xyz','AdminController@index')->name('xyz');
 Route::get('/login','AdminController@login')->name('login');
+Route::get('/register','AdminController@register')->name('register');
